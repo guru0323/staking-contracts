@@ -46,7 +46,7 @@ contract EasyStaking is Ownable, ReentrancyGuard {
      * @param id User's unique deposit ID.
      */
     event WithdrawalRequested(address indexed sender, uint256 indexed id);
-
+    
     /**
      * @dev Emitted when a user withdraws tokens.
      * @param sender User address.
